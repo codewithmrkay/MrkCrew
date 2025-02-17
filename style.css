@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'c1';
+    src: url('./fonts/Coolvetica2.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: c1;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #D4C9C9;
+}
+
+#page1 {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background-image: url('bg2.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #D4C9C9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#scroll{
+    font-weight: 400;
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    font-size:2rem;
+}
+#page1 .herotext {
+    font-family: c1;
+    color: black;
+    font-size: 15rem;
+    font-weight: 500;
+    line-height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#dot {
+    color: white;
+}
+
+#k {
+    color: white;
+}
+
+#page2 {
+    width: 100%;
+    background-color: #D4C9C9;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+}
+
+#current-cooking {
+    margin-top:5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+#current {
+    font-family: c1;
+    color: black;
+    font-size: 5rem;
+    font-weight: 500;
+    background-color: white;
+}
+#cooking {
+    font-family: c1;
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+    background-color: black;
+}
+#page3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #D4C9C9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#cooking-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+#page3 h1{
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    white-space: nowrap;
+    font-size: 7rem;
+    
+}
+#item1{  
+    width: fit-content;
+    height: 150px;
+    background-color: black;
+}
+#op1{
+    margin-top: 5rem;
+    transform: rotate(10deg);
+}
+#ch1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item2{  
+    width: fit-content;
+    height: 150px;
+    background-color: black;
+}
+#op2{
+    transform: rotate(-25deg);
+}
+#ch2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item3{  
+    width: fit-content;
+    height: 150px;
+    background-color: black;
+}
+#op3{
+    transform: rotate(-5deg);
+}
+#ch3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item1 img{
+    width: 100%;
+    height: 100%;
+}
+#item2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+#item3 img{
+    width: 100%;
+    height: 100%;
+}
+ #p3s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 8rem;
+}
+#page4{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4C9C9;
+    /* background-color: #28c652; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page5{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4C9C9;
+    /* background-color: #bae732; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p5hero{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+}
+#p5heroimg{
+    padding: 3rem 0px;
+    width: 700px;
+    height:100%;
+    /* background-color: rgb(239, 69, 69); */
+}
+#p5heroimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#p5herotext{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    gap: 5rem;
+    padding: 5rem 0px 3rem 0px;
+}
+#p5herotext h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+#p5herotext p{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+#p5linkbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#p5linkbtn img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+#p5linkbtn div:hover{
+    opacity: 0.7;
+}
+#p5linkbtn :nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+#page6{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4C9C9;
+    /* background-color: #db1699; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page7{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4C9C9;
+    /* background-color: #1620db; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page8{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4C9C9;
+    /* background-color: #f1b744; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+}
+#page8 h1{
+    font-size: 5rem;
+    font-weight: 500;
+    background-color: white;
+    position: relative;
+    right: 1rem;
+}
+#page8 img{
+    width: 200px;
+    width: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+#page8 img:hover{
+    opacity: 0.7;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+#mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mail p{
+    line-height: 0px;
+    font-size: 1.2rem;
+}
+#page9{
+    width: 100%;
+    height: 20vh;
+    background-color: #D4C9C9;
+}
