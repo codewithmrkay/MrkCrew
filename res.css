@@ -1,0 +1,103 @@
+@media (max-width: 400px) {
+  #page1 .herotext {
+    font-size: 5rem;
+  }
+  #scroll{
+    bottom: 40%;
+    right: 20%;
+    font-size:1.2rem;
+  }
+    /*page 2  */
+   #current-cooking {
+        margin-top:2rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    } 
+    #current {
+        font-family: c1;
+        color: black;
+        font-size: 3rem;
+        font-weight: 500;
+        background-color: white;
+    }  
+    #cooking {
+        font-family: c1;
+        color: white;
+        font-size: 3rem;
+        font-weight: 500;
+        background-color: black;
+    }
+      /*page3  */
+      
+#page3 h1{
+        font-weight: 400;
+        color: white;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: fit-content;
+        white-space: nowrap;
+        font-size: 3rem;
+        
+    }
+    #item1,#item2,#item3{  
+        width: fit-content;
+        height: 100px;
+    }
+    /* page4 */
+    #page4{
+        height: 40vh;
+    }
+    #p3s{
+        font-size: 3rem;
+    }
+    /* page 5 */
+    #page5{
+        height: fit-content;
+    }
+    #p5hero{
+        flex-direction: column;
+    }
+    #p5heroimg{
+        width: 90%;
+        padding: 0px;
+    }
+    #p5herotext{
+        padding: 0px;
+        gap: 1rem;
+    }
+    #p5herotext h3{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    #p5herotext p{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    /* page 6 */
+    #page6{
+        height: 50vh;
+    }
+    #page6 #p5herotext{
+        order: 2;
+    }
+    #page6 #p5heroimg{
+       order: 1;
+    }
+    /* page7 */
+    /* page8 */
+    #page8 h1{
+font-size: 3rem;
+    }
+    #contact{
+        display: grid;
+        gap: 0px;
+    }
+    
+}
