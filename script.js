@@ -21,8 +21,8 @@ function changeDataScrollSpeed() {
   }
   
   // Call the function on window resize
-  window.addEventListener('resize', changeDataScrollSpeed);
+  //window.addEventListener('resize', changeDataScrollSpeed);
   
   // Call the function on initial load
-  changeDataScrollSpeed();
+  //changeDataScrollSpeed();
   
